@@ -1,16 +1,62 @@
-## Hi there 👋
+# Тимофей Максимов
 
-<!--
-**Kor1992/Kor1992** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Go Backend Developer
 
-Here are some ideas to get you started:
+Открыт к предложениям о коммерческой работе в backend-разработке.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Разрабатываю backend-сервисы на Go в рамках самостоятельной проектной деятельности. Самостоятельно проектирую структуру приложений, реализую бизнес-логику, REST API и взаимодействие с базами данных, а также занимаюсь тестированием, контейнеризацией и интеграцией с внешними сервисами.
+
+В разработку пришёл из юриспруденции. В процессе самостоятельного обучения программированию понял, что хочу развиваться именно в backend-разработке, и сосредоточился на Go. Основные знания закрепляю через собственные проекты, стараясь разбираться не только в том, как реализовать задачу, но и почему выбран конкретный подход.
+
+## Технологии
+
+* **Go**
+* **PostgreSQL, SQLite**
+* **pgx / pgxpool**
+* **REST API, HTTP, middleware**
+* **JWT, RBAC**
+* **Redis**
+* **Docker, Docker Compose**
+* **GitHub Actions, CI/CD**
+* **Unit-тестирование, mock-репозитории**
+* **Git**
+
+## Основные проекты
+
+### AI Music Service
+
+SaaS-сервис генерации музыки по текстовому описанию с интеграцией MusicGen через Replicate API.
+
+Реализовал очередь задач на базе PostgreSQL и фонового worker, чтобы обрабатывать генерации асинхронно и не блокировать HTTP-запрос. Добавил отмену задач через `context`, JWT-аутентификацию, систему подписок и rate limiting.
+
+[GitHub](https://github.com/Kor1992/music-service)
+
+### Legal Contract Manager
+
+SaaS-сервис управления договорами и пользователями.
+
+Реализовал ролевую модель `admin / lawyer / client`, JWT-аутентификацию и middleware для контроля доступа, транзакции PostgreSQL, аудит действий пользователей и загрузку PDF-файлов. Также реализовал систему подписок и webhook для автоматической активации подписки после оплаты.
+
+[GitHub](https://github.com/Kor1992/Legal-Contract-Manager)
+
+### QOTD
+
+REST-сервис «Цитата дня».
+
+Реализовал регистрацию пользователей, JWT-аутентификацию, подписки, управление цитатами и поиск по автору. Добавил unit-тесты сервисного слоя с mock-репозиторием, CI/CD через GitHub Actions, сборку Docker-образа и деплой на Render.
+
+[GitHub](https://github.com/Kor1992/qotd)
+
+## Профессиональное развитие
+
+Продолжаю развиваться в Go и backend-разработке через практику и собственные проекты.
+
+Изучаю материалы Николая Тузова, Bogdan Stashchuk и nilchanpub, прохожу курс Павла Тарасова на Stepik. Читаю книгу Джона Боднера «Go: идиомы и паттерны проектирования».
+
+## Контакты
+
+* **GitHub:** https://github.com/Kor1992
+* **Telegram:** [Telegram](t.me/nenyetokrai)
+* **HH.ru:** [Резюме](https://spb.hh.ru/resume/0417367dff1119bcee0039ed1f425836374743)
+
+**Статус:** открыт к предложениям о коммерческой работе в Go Backend Development.
